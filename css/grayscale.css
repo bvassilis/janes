@@ -3,7 +3,7 @@ body {
   height: 100%;
   font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: white;
-  background-color: #15546B; }
+  background: url(../img/bak.png) repeat #aa7d53; }
 
 html {
   width: 100%;
@@ -39,6 +39,9 @@ a {
   a:hover, a:focus {
     text-decoration: none;
     color: #400422; }
+
+#about {
+  background: url(../img/about4.png); }
 
 .light {
   font-weight: 400; }

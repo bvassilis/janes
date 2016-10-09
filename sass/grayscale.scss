@@ -6,7 +6,7 @@ body {
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
-    background-color: $blue;
+    background: url(../img/bak.png) repeat #aa7d53;
 }
 
 html {
@@ -48,6 +48,10 @@ a {
         text-decoration: none;
         color: darken($mauve,20%);
     }
+}
+
+#about {
+    background: url(../img/about4.png);
 }
 
 .light {
