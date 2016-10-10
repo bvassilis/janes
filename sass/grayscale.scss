@@ -51,7 +51,7 @@ a {
 }
 
 #about {
-    background: url(../img/about4.png);
+    background: url(../img/about5.png);
 }
 
 .light {
@@ -112,7 +112,7 @@ a {
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
                 &:hover {
-                    color: darken($white,20%);
+                    color: black;
                     outline: none;
                     background-color: transparent;
                 }
@@ -125,7 +125,7 @@ a {
             &.active {
                 outline: none;
                 a {
-                    background-color: darken($white,20%);
+                    background-color: #c0a2aa;
                     &:hover {
                         color: white;
                     }
