@@ -41,7 +41,7 @@ a {
     color: #400422; }
 
 #about {
-  background: url(../img/about4.png); }
+  background: url(../img/about5.png); }
 
 .light {
   font-weight: 400; }
@@ -86,7 +86,7 @@ a {
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out; }
     .navbar-custom .nav li a:hover {
-      color: #cccccc;
+      color: black;
       outline: none;
       background-color: transparent; }
     .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
@@ -95,7 +95,7 @@ a {
   .navbar-custom .nav li.active {
     outline: none; }
     .navbar-custom .nav li.active a {
-      background-color: #cccccc; }
+      background-color: #c0a2aa; }
       .navbar-custom .nav li.active a:hover {
         color: white; }
 
