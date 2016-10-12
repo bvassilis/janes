@@ -41,7 +41,7 @@ a {
     color: #400422; }
 
 #about {
-  background: url(../img/about5.png); }
+  background: url(../img/about5.png) no-repeat; }
 
 .light {
   font-weight: 400; }
