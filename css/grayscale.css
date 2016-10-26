@@ -42,6 +42,11 @@ a {
 
 #about {
   background: url(../img/about5.png) no-repeat; }
+  #about .quotes {
+    position: absolute;
+    font-size: 9px; }
+  #about .quotes-center {
+    padding: 0 0 0 15px; }
 
 .light {
   font-weight: 400; }
@@ -186,6 +191,30 @@ a {
 .download-section {
   width: 100%;
   padding: 50px 0; }
+  .download-section .panel {
+    margin-bottom: 40px;
+    background-color: transparent; }
+  .download-section .panel-heading {
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif; }
+    .download-section .panel-heading h3 {
+      margin-top: 35px; }
+  .download-section .panel-professional {
+    border: 1px solid #476810; }
+    .download-section .panel-professional .panel-heading {
+      background-color: #476810;
+      color: white; }
+  .download-section .panel-enterprise {
+    border: 1px solid #333; }
+    .download-section .panel-enterprise .panel-heading {
+      background-color: #333;
+      color: white; }
+  .download-section ul.list-group {
+    color: black; }
+    .download-section ul.list-group li.list-group-item {
+      text-align: left;
+      font-size: 16px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 0px solid #83c01e; }
 
 #map {
   width: 100%;
@@ -257,5 +286,11 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+.form-horizontal .control-label {
+  text-align: left; }
+
+.contact-form-header {
+  margin: 55px 0 5px; }
 
 /*# sourceMappingURL=grayscale.css.map */
