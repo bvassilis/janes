@@ -290,6 +290,14 @@ a {
             font-size: 16px;
             background-color:  rgba(white,0.1);
             border: 0px solid lighten($green,20%);
+            .note {
+                position: absolute;
+                font-size: 8px;
+                top: 12px;
+            }
+            .notetext {
+                padding-left: 12px;
+            }
         }
     }
 }
